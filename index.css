@@ -1,0 +1,214 @@
+body{
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: RNS Sanz;
+}
+.myname{
+	font-size: 30px;
+	font-family: Palatino Linotype;
+	font-weight: bolder;
+	color: white;
+	text-shadow: 2px 2px 0px gray;
+}
+.mymenu{
+	font-size: 20px;
+	color: whitesmoke;
+/*	font-weight: bolder;*/
+}
+.mymenu:hover{
+	color: cyan;
+	transform:scale(1.1);
+}
+.mymenu span{
+	border-bottom: 2px white;
+}
+
+ li a:hover {
+	border-bottom: yellow solid;
+	padding-bottom:0px;
+	transition: all 0.5s ease;
+}
+.navbar{
+	position:fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: brown !important;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0.6, 0.5);
+	z-index: 1;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.maindiv{
+	width: 100%;
+	position: absolute;
+	top: 0px;
+}
+.dv{
+	width: 400px;
+/*	padding-top: 200px;*/
+/*	border: 2px solid red;*/
+}
+.home{
+	height: 800px;
+	width: 100%;
+	padding-top: 55px;
+/*	background-image: url("https://camo.githubusercontent.com/cae12fddd9d6982901d82580bdf321d81fb299141098ca1c2d4891870827bf17/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313336302f302a37513379765349765f7430696f4a2d5a2e676966");*/
+	background-image: url("SurajPhoto.png");
+	background-size: 40%;
+/*	background-image: url("https://media1.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif");*/
+/*	background-size: 50%;*/
+	background-repeat: no-repeat;
+	background-position:center right;
+}
+html{
+	scroll-behavior: smooth;
+}
+.homeinfo{
+	margin-top: 15%;
+	margin-left: 15%;
+}
+.info{
+	font-size: 35px;
+	color: #7d631a;
+/*	font-weight: bolder;*/
+}
+.infoname{
+	margin-top: 15%;
+	font-size: 55px;
+	font-family: Palatino Linotype;
+	font-weight: bolder;
+	color: brown ;
+}
+.infodev{
+	font-size: 25px;
+	color:  #7d631a;
+	font-weight: bolder;
+}
+.btn{
+	margin: 0px;
+}
+.btn button{
+		height: 30px;
+		width: 80px;
+		border: none;
+		background-color: brown;
+		color: white;
+		font-size: 16px;
+		font-weight: bolder;
+		border-radius: 5px;
+		box-shadow: 2px 2px gray;
+}
+.btn button:hover{
+	background-color: #db655a;
+	border-radius: 1px solid orange;
+	transform : scale(1.1);
+	transition-duration: 1s;
+}
+
+.about{
+	height: 800px;
+	width: 100%;
+	margin-top: 0%;
+	background-color:#f0f0f0;
+}
+.sectionheading{
+	color: brown;
+	font-family:RNS Sanz;
+	padding-top: 100px;
+	font-size: 30px;
+	font-weight: bolder;
+}
+.tabledv{
+	margin-top: 5%;
+/*	margin: 10px;*/
+	text-align: center;
+}
+.myimg{
+	height: 300px;
+	width: 300px;
+	margin: 20px;
+	border-radius: 150px;
+}
+.myimg:hover{
+	box-shadow: 2px 4px 3px 4px gray;
+	transform: scale(1.1);
+	transition-duration: 1s;
+}
+.carobj{
+	text-align: justify;
+	text-indent: 8%;
+	color:red;
+	font-family:Palatino Linotype;
+	font-weight: bolder;
+	font-size: 20px;
+}
+.skilss{
+	margin-top: 8%;
+	text-align: center;
+}
+.skill{
+	height: 800px;
+	width: 100%;
+	margin-top: 0%;
+	background-color:#faf0f0;
+}
+h5{
+	margin-top: -80px;
+}
+.skilltb {
+	text-align: center;
+	color: red;
+	font-family:RNS Sanz;
+	font-size: 23px;
+	font-weight: bolder;
+}
+.techskill{
+	text-align: center;
+/*	color: #ff0808;*/
+	color: royalblue;
+	letter-spacing: 2px;
+	word-spacing: 4px;
+	font-family:RNS Sanz;
+	font-size: 15px;
+	font-weight: bolder;
+}
+
+.projects{
+	height: 800px;
+	width: 100%;
+	background-color: lightgray;
+}
+.card{
+/*	margin-top: 10%;*/
+	margin: 2%;
+	height: 500px;
+}
+.card-title{
+	padding-top: 15%;
+}
+.contact{
+	height: 650px;
+	width: 100%;
+	background-color:#faf0f0;
+}
+
+/*footer*/
+.footer {
+  background: black;
+  padding: 10px 0;
+}
+.footer a {
+  color: white;
+  padding-left: 100px;
+}
+.footer a:hover {
+  color: #058aff;
+  font-size: 20px;
+  transition-duration: 1s;
+  transition: all .5s ease;
+}
+.foot{
+	color: white;
+	background-color:#304146;
+}
